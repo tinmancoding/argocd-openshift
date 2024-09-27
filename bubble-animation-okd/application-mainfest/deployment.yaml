@@ -6,7 +6,7 @@ metadata:
     app: bubble-animation
   name: bubble-animation
 spec:
-  replicas: 5
+  replicas: 2
   selector:
     matchLabels:
       app: bubble-animation
@@ -21,4 +21,4 @@ spec:
         name: bubble-animation
         env:
         - name: COLOR
-          value: "yellow"
+          value: "green"
